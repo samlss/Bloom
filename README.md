@@ -4,7 +4,7 @@
 
 
 ### Features
-- Support any view
+- Support any views
 - Flexible configuration the size, shape of the particle
 - Flexible configuration of particle animation
 - Configure fade out animation
