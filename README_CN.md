@@ -61,7 +61,7 @@
 
 
 
-更多描述可阅读 [wiki](https://github.com/samlss/Bloom/wiki) 
+更多说明可阅读 [wiki](https://github.com/samlss/Bloom/wiki) 
 
 [下载](https://github.com/samlss/Bloom/blob/master/apks/Bloom-V1.0.0.apk?raw=true) apk查看demo效果
 
