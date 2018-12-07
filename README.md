@@ -52,9 +52,9 @@ Add it in your module build.gradle at the end of repositories:
  Bloom.with('activity')
      .setParticleRadius(5)
      .setEffector(new BloomEffector.Builder()
-       .setDuration(800)
-       .setAnchor(view.getWidth() / 2, view.getHeight() / 2)
-       .build())
+         .setDuration(800)
+         .setAnchor(view.getWidth() / 2, view.getHeight() / 2)
+         .build())
      .boom(view);
 ```
 
