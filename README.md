@@ -61,6 +61,8 @@ Add it in your module build.gradle at the end of repositories:
 
 Please read [wiki](https://github.com/samlss/Bloom/wiki) for more descriptions.
 
+[Download](https://github.com/samlss/Bloom/blob/master/apks/Bloom-V1.0.0.apk?raw=true) the apk to review.
+
 ### License
 
 ```
