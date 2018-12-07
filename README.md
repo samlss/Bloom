@@ -2,6 +2,8 @@
 
  [![Download](https://api.bintray.com/packages/samlss/maven/bloom/images/download.svg)](https://bintray.com/samlss/maven/bloom/_latestVersion) [![Api reqeust](https://img.shields.io/badge/API-11+-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=11#l11)    [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/Bloom/blob/master/LICENSE)  [![Apk](https://img.shields.io/badge/apk-download-orange.svg)](https://github.com/samlss/Bloom/blob/master/apks/Bloom-V1.0.0.apk?raw=true)  
 
+ [中文](https://github.com/samlss/Bloom/blob/master/README_CN)
+
 ### What does this library do?
 It can animate any view in the form of particles, so you can download it then review the effect
  
