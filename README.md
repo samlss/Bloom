@@ -11,7 +11,6 @@ It can animate any view in the form of particles, so you can download it then re
 - Support any view
 - Flexible configuration the size, shape of the particle
 - Flexible configuration of particle animation
-- Configure fade out animation
 
 ### Screenshots
 
