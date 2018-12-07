@@ -9,7 +9,6 @@
 - Flexible configuration of particle animation
 - Configure fade out animation
 
-
 ### Screenshots
 
 ![Bloom](https://github.com/samlss/Bloom/blob/master/screenshots/screenshot1.gif)
