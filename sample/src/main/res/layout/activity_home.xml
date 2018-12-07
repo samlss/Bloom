@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anchor Sample"
+            android:onClick="startAnchorSample"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scale Sample"
+            android:onClick="startScaleSample"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skew Sample"
+            android:onClick="startSkewSample"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startShapeSample"
+            android:text="Shape Sample"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acceleration Sample"
+            android:onClick="startAccelerationSample"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startRotationSample"
+            android:text="Rotation Sample"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startFadeOutSample"
+            android:text="FadeOut Sample"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startRecyclerViewSample"
+            android:text="RecyclerView Sample"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/ic_samlss_head_photo"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="50dp"
+            android:text="Created by Samlss"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccelerationSampleActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_anchor_google_browser"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="60dp"
+                android:onClick="onClick"
+                android:src="@drawable/icon_google_browser" />
+
+            <ImageView
+                android:id="@+id/iv_anchor_google_map"
+                android:layout_marginTop="80dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="onClick"
+                android:src="@drawable/icon_google_map" />
+
+
+            <ImageView
+                android:id="@+id/iv_anchor_google"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginTop="80dp"
+                android:onClick="onClick"
+                android:src="@drawable/icon_google" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

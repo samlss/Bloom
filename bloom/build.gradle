@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+}
+
+publish {
+    userOrg = 'samlss'
+    groupId = 'me.samlss'
+    artifactId = 'bloom'
+    publishVersion = '1.0.0'
+    desc = 'An android library that display bloom effect for view.'
+    website = 'https://github.com/samlss/Bloom'
+}
