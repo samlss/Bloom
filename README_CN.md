@@ -30,7 +30,7 @@
 ### 依赖
 
 #### Gradle
-在app目录下的build.gradle添加依赖使用：
+将其添加到你的module的build.gradle中：
   ```java
   dependencies {
       implementation 'me.samlss:bloom:1.0.0'
