@@ -48,7 +48,7 @@ Add it in your module build.gradle at the end of repositories:
 ### Sample Usage
 
 ```java
- Bloom.with(this)
+ Bloom.with('activity')
      .setParticleRadius(5)
      .setEffector(new BloomEffector.Builder()
      .setDuration(800)
