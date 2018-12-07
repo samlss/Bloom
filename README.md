@@ -4,7 +4,7 @@
 
 
 ### Features
-- Support any view
+- Support any views
 - Flexible configuration the size, shape of the particle
 - Flexible configuration of particle animation
 - Configure fade out animation
@@ -48,7 +48,7 @@ Add it in your module build.gradle at the end of repositories:
 ### Sample Usage
 
 ```java
- Bloom.with(this)
+ Bloom.with('activity')
      .setParticleRadius(5)
      .setEffector(new BloomEffector.Builder()
      .setDuration(800)
