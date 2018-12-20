@@ -209,12 +209,9 @@ public class BloomView extends View{
         postInvalidate();
     }
 
-    private Paint paint = new Paint();
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
-        paint.setColor(Color.RED);
 
         if (mBloomParticles == null
                 || mBloomParticles.isEmpty()){
